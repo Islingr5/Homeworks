@@ -1,3 +1,17 @@
+
+
+
+  _______ _          ______                                               _                  
+ |__   __| |        |  ____|                            /\               | |                 
+    | |  | |__   ___| |__   ___  ___ __ _ _ __   ___   /  \__      ____ _| | _____ _ __  ___ 
+    | |  | '_ \ / _ \  __| / __|/ __/ _` | '_ \ / _ \ / /\ \ \ /\ / / _` | |/ / _ \ '_ \/ __|
+    | |  | | | |  __/ |____\__ \ (_| (_| | |_) |  __// ____ \ V  V / (_| |   <  __/ | | \__ \
+    |_|  |_| |_|\___|______|___/\___\__,_| .__/ \___/_/    \_\_/\_/ \__,_|_|\_\___|_| |_|___/
+                                         | |                                                 
+                                         |_|                                                 
+
+
+
 **How to Play?**
 
 \-When the program starts, you will have the options to start a new game or load
@@ -31,6 +45,7 @@ enemy in the room you are in.
 \-The "Save" option allows you to save your progress. It will also save any
 items you haven't collected from the rooms you have cleared.  
 
+________________________________________________________________________________
 
 **GAME LOGIC** -In the game, you can interact with the environment by picking up
 and discarding items, as well as moving between rooms. You can find mysterious
@@ -38,7 +53,7 @@ items after defeating enemies. Some items are usable. Collect various weapons to
 strengthen your character and use health recover items reasonable, because they
 are limited in the map.
 
- 
+________________________________________________________________________________
 
 **CODE STRUCTURE**
 
@@ -54,22 +69,22 @@ compiles the various C source files into the executable.
 
  
 
-**\\-game.c**: Handles the core game logic, including initializing the game,
+\-game.c: Handles the core game logic, including initializing the game,
 combat mechanics, saving/loading game states, and drawing the map.
 
-**\\-item.c**: Manages item creation, attributes, and inventory interactions. It
+\-item.c: Manages item creation, attributes, and inventory interactions. It
 also handles the saving and loading of item data.
 
-**\\-enemy.c**: Defines enemy behaviors, including random generation, combat
+\-enemy.c: Defines enemy behaviors, including random generation, combat
 mechanics, and saving/loading enemy states.
 
-**\\-player.c**: Contains the player's attributes and manages inventory. It also
+*\-player.c: Contains the player's attributes and manages inventory. It also
 defines the character struct and related functions.
 
-**\\-room.c**: Responsible for creating the 3x15 grid layout and populating
+\-room.c: Responsible for creating the 3x15 grid layout and populating
 rooms with random events, enemies, and items.
 
-**\\-commands.c**: Handles command parsing for user actions such as moving,
+\-commands.c: Handles command parsing for user actions such as moving,
 looking around, attacking, and managing inventory.
 
  
@@ -78,21 +93,21 @@ looking around, attacking, and managing inventory.
 
  
 
-**\\-game.h**: Defines structures and function prototypes related to the game’s
+\-game.h: Defines structures and function prototypes related to the game’s
 logic and mechanics.
 
-**\\-item.h**: Declares item-related structures and functions for item
+\-item.h: Declares item-related structures and functions for item
 management.
 
-**\\-enemy.h**: Contains the structures and function prototypes for handling
+\-enemy.h: Contains the structures and function prototypes for handling
 enemies.
 
-**\\-player.h**: Defines the structures for the player and character, as well as
+\-player.h: Defines the structures for the player and character, as well as
 related functions.
 
-**\\-room.h**: Contains the function prototypes for managing rooms and their
+\-room.h: Contains the function prototypes for managing rooms and their
 contents.
 
-**\\-commands.h**: Declares the functions for processing player commands.
+\-commands.h: Declares the functions for processing player commands.
 
  
