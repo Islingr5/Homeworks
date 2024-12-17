@@ -219,19 +219,7 @@ void combat(Character *enemy)
             sprintf(droppedItem->description, "A delicious chocolate bar that restores 25 health.");
             droppedItem->health_regen = 25;
         }
-        else if (rand() % 4 == 1)
-        {
-            sprintf(droppedItem->name, "BrokenGlassBottle");
-            sprintf(droppedItem->description, "A broken glass bottle that deals 10 damage.");
-            droppedItem->damage = 6;
-        }
-        else if (rand() % 4 == 2)
-        {
-            sprintf(droppedItem->name, "MedKit");
-            sprintf(droppedItem->description, "A medical kit that restores 40 health.");
-            droppedItem->health_regen = 40;
-        }
-        else if (rand() % 4 == 3)
+        else
         {
             sprintf(droppedItem->name, "MysteriousKey");
             sprintf(droppedItem->description, "A key that might open something.");
