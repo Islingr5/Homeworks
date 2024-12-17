@@ -1,17 +1,3 @@
-
-
-
-  _______ _          ______                                               _                  
- |__   __| |        |  ____|                            /\               | |                 
-    | |  | |__   ___| |__   ___  ___ __ _ _ __   ___   /  \__      ____ _| | _____ _ __  ___ 
-    | |  | '_ \ / _ \  __| / __|/ __/ _` | '_ \ / _ \ / /\ \ \ /\ / / _` | |/ / _ \ '_ \/ __|
-    | |  | | | |  __/ |____\__ \ (_| (_| | |_) |  __// ____ \ V  V / (_| |   <  __/ | | \__ \
-    |_|  |_| |_|\___|______|___/\___\__,_| .__/ \___/_/    \_\_/\_/ \__,_|_|\_\___|_| |_|___/
-                                         | |                                                 
-                                         |_|                                                 
-
-
-
 **How to Play?**
 
 \-When the program starts, you will have the options to start a new game or load
@@ -78,7 +64,7 @@ also handles the saving and loading of item data.
 \-enemy.c: Defines enemy behaviors, including random generation, combat
 mechanics, and saving/loading enemy states.
 
-*\-player.c: Contains the player's attributes and manages inventory. It also
+\-player.c: Contains the player's attributes and manages inventory. It also
 defines the character struct and related functions.
 
 \-room.c: Responsible for creating the 3x15 grid layout and populating
