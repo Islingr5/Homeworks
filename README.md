@@ -1,3 +1,8 @@
+
+
+![Ekran Alıntısı](https://github.com/user-attachments/assets/a023f628-3ad5-4f7b-a2f9-48e487b56671)
+
+
 **How to Play?**
 
 \-When the program starts, you will have the options to start a new game or load
